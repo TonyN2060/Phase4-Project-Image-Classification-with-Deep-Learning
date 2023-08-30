@@ -1,5 +1,15 @@
 # **Phase4-Project-Image-Classification-with-Deep-Learning**
-##** Business Understanding**
+### **Authors**
+- Wambui Thuku
+- Wilfred Njagi
+- Muthoni Kahura
+- Kenneth Kimani
+- Cynthia Nasimiyu
+- Tony Munene
+- Bryan Okwach
+
+
+## **Business Understanding**
 
 **Project Objective:**
 The primary objective of this project is to develop a deep neural network model that can accurately classify whether a pediatric patient has pneumonia or not, based on chest X-ray images. This project aims to showcase the practical application of deep learning in the medical domain, specifically in diagnosing pneumonia using medical images. The project is focused on achieving a proof of concept and demonstrating the ability to iterate and improve the model's performance.
@@ -9,9 +19,13 @@ Pneumonia is a significant health concern among pediatric patients, and early di
 
 ## **Data Understanding**
 The dataset consists of chest X-ray images (anterior-posterior) from pediatric patients aged one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. The dataset is organized into three main folders:
+
 _Train:_ Used for training the model.
+
 _Test:_ Used for evaluating the model's performance.
-_Validation (Val):_ Used for fine-tuning and validating the model during the training process.
+
+_Validation(Val):_ Used for fine-tuning and validating the model during the training process.
+
 Within these folders, there are subfolders for each image category (Pneumonia/Normal), summing up to a total of 5,863 X-ray images. The images were screened for quality control, and the diagnoses were graded by two expert physicians. A third expert also checked the evaluation set to account for any grading errors.
 
 ### **EDA**
