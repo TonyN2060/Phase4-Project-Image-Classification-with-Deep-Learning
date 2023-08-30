@@ -39,7 +39,7 @@ Before building the model, the data underwent several preprocessing steps:
 ### **Data Preprocessing**
 - The images were loaded in grayscale.
 - _ Data Augmentation:_ Data augmentation techniques were applied to diversify the training data. This includes techniques like resizing, rotation, and flipping.
-- _Resizing/Rescaling:_ The pixel values of the images were normalized to the range [0, 1] using the rescaling factor (1/225).
+- _Resizing/Rescaling:_ The pixel values of the images were normalized to the range [0, 1] using the rescaling factor (1/255).
 - _Handling Class Imbalance:_ Use of class weights to give more importance to the underrepresented class.
 - The ImageDataGenerator from Keras was used for image data augmentation and preprocessing, which also facilitates feeding data into the model during training.
   
